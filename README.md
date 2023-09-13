@@ -37,9 +37,9 @@ This Python script allows you to search for files in a directory and its subdire
    Enter the file pattern (e.g., '_.txt'): _.txt
    ```
 
-   \*Directory Path: Enter the full path to the directory where you want to start the search. You can use both relative and absolute paths.
+   **Directory Path: Enter the full path to the directory where you want to start the search. You can use both relative and absolute paths.**
 
-   \*File Pattern: Specify the file pattern (e.g., \*.txt for all text files). The script will search for files that match this pattern.
+   **File Pattern: Specify the file pattern (e.g., .txt for all text files). The script will search for files that match this pattern.**
 
 5. **View Search Results**
 
@@ -54,7 +54,6 @@ This Python script allows you to search for files in a directory and its subdire
    Here's an example of how to use the script:
 
    ```bash
-   Copy code
    Enter the directory path to search in: /path/to/your/directory
    Enter the file pattern (e.g., '_.txt'): _.txt
    ```
