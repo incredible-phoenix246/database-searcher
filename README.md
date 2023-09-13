@@ -10,47 +10,52 @@ This Python script allows you to search for files in a directory and its subdire
 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
-Navigate to the Script Directory
 
-Use the cd command to move into the directory where the script is located:
+   ```
 
-bash
-Copy code
-cd your-repo
-Run the Script
+2. **Navigate to the Script Directory**
 
-Run the script by executing the following command:
+   Use the cd command to move into the directory where the script is located:
 
-bash
-Copy code
-python file_search.py
-Enter Directory and File Pattern
+   ```bash
+   Copy code
+   cd your-repo
+   Run the Script
+   ```
 
-The script will prompt you to enter the directory path and the file pattern (filename) you want to search for. For example:
+3. **Run the script by executing the following command**
 
-javascript
-Copy code
-Enter the directory path to search in: /path/to/your/directory
-Enter the file pattern (e.g., '*.txt'): *.txt
-Directory Path: Enter the full path to the directory where you want to start the search. You can use both relative and absolute paths.
-File Pattern: Specify the file pattern (e.g., *.txt for all text files). The script will search for files that match this pattern.
-View Search Results
+   ```bash
+   Copy code
+   python file_search.py
+   Enter Directory and File Pattern
+   ```
 
-The script will display a list of file paths that match the specified file pattern within the chosen directory and its subdirectories.
+   The script will prompt you to enter the directory path and the file pattern (filename) you want to search for. For example:
 
-Exit the Script
+   javascript
+   Copy code
+   Enter the directory path to search in: /path/to/your/directory
+   Enter the file pattern (e.g., '_.txt'): _.txt
+   Directory Path: Enter the full path to the directory where you want to start the search. You can use both relative and absolute paths.
+   File Pattern: Specify the file pattern (e.g., \*.txt for all text files). The script will search for files that match this pattern.
+   View Search Results
 
-To exit the script, press Ctrl+C or follow the on-screen instructions.
+   The script will display a list of file paths that match the specified file pattern within the chosen directory and its subdirectories.
 
-Example
-Here's an example of how to use the script:
+   Exit the Script
 
-bash
-Copy code
-Enter the directory path to search in: /path/to/your/directory
-Enter the file pattern (e.g., '*.txt'): *.txt
+   To exit the script, press Ctrl+C or follow the on-screen instructions.
 
-Found matching files:
-/path/to/your/directory/file1.txt
-/path/to/your/directory/subdirectory/file2.txt
-/path/to/your/directory/another_subdir/file3.txt
+   Example
+   Here's an example of how to use the script:
+
+   bash
+   Copy code
+   Enter the directory path to search in: /path/to/your/directory
+   Enter the file pattern (e.g., '_.txt'): _.txt
+
+   Found matching files:
+   /path/to/your/directory/file1.txt
+   /path/to/your/directory/subdirectory/file2.txt
+   /path/to/your/directory/another_subdir/file3.txt
