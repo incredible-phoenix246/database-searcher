@@ -60,6 +60,8 @@ This Python script allows you to search for files in a directory and its subdire
 
    **Found matching files:**
 
+   ````bash
    /path/to/your/directory/file1.txt
    /path/to/your/directory/subdirectory/file2.txt
-   /path/to/your/directory/another_subdir/file3.txt
+   /path/to/your/directory/another_subdir/file3.txt```
+   ````
